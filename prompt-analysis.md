@@ -1,1 +1,1 @@
-  The chatbot was told to give  
+  The chatbot was told to give answers in a clear and concise manner with emphasis in providing solutions in a step-by-step manner. This is to ensure that the output of the chatbot is easily intepretable by the users and prevent the chatbot from hallucinating. 
