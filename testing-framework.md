@@ -1,1 +1,1 @@
-
+These test cases were designed based on the experiences of both buyers and sellers. By considering common problems that both parties may face, it ensures that the chatbot can be used for a majority of use cases in the marketplace and fulfill its role. For cases where escalation to a human moderator is necessary, issues were also given different priorities based on how urgent the matter is. For example, scenarios where buyers are trying to purchase drugs or weapons are given a higher priority compared to resolving a long dispute between 2 parties.
