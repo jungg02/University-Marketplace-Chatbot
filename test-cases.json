@@ -1,1 +1,33 @@
-
+{
+ "test_cases": [
+ {
+ "id": "nav_001",
+ "category": "basic_navigation",
+ "input": "How do I list my items on the marketplace?",
+ "expected_elements": ["posting steps", "pricing guidance",
+"photo requirements"],
+ "success_criteria": "Provides clear step-by-step posting
+instructions",
+ "edge_case": false
+ },
+ {
+ "id": "nav_002",
+ "category": "basic_navigation",
+ "input": "How do I search for some shoes near me?",
+ "expected_elements": ["searching steps", "applying filters"],
+ "success_criteria": "Provides filtered listings for shoes based on 
+location",
+ "edge_case": false
+ },
+ {
+ "id": "nav_003",
+ "category": "basic_navigation",
+ "input": "How do I contact the seller?",
+ "expected_elements": ["introduction to messaging platform", "messaging guidelines",
+"privacy protection"],
+ "success_criteria": "Provides clear step-by-step 
+instructions on how to use the messaging platform",
+ "edge_case": false
+ },
+ ]
+}
