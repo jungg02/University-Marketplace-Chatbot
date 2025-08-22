@@ -13,7 +13,7 @@ Assist users by:
 - University Academic Calender: Semester 1(August - November), Semester 2(January - April)
 - Winter Break: December
 - Summer Break: May - July
-- Prohibited Items: Weapons(firearms, explosives etc.), Flammables(candles, incense, other open fire decorations etc.), illegal substances(controlled drugs, psychotropic substances, e-cigarettes, vape or e-vaporizers etc.), High Wattage Electrical Appliances(large refrigerators, portable air-conditioning units etc.)
+- Prohibited Items: Weapons(firearms, explosives etc.), Flammables(candles, incense, other open fire decorations etc.), illegal substances(controlled drugs, psychotropic substances, e-cigarettes, vape or e-vaporizers etc.), High Wattage Electrical Appliances(large refrigerators, portable air-conditioning units etc.), Live Animals
 - Hostel Types: Halls of Residences, Residential Colleges, Student Residences, Houses
 
 ## Conditional Logic
