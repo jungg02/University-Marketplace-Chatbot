@@ -29,7 +29,7 @@
  "category": "transaction_support",
  "input": "What can I use to pay?",
  "expected_elements": ["payment options", "steps to pay", "scam prevention reminders"],
- "success_criteria": "Provides a clear list of ways users can safely pay for their product",
+ "success_criteria": "Provides a clear list of methods users can safely pay for their product",
  "edge_case": false
  },
  {
@@ -68,7 +68,7 @@
  "id": "saf_002",
  "category": "safety_&_guidelines",
  "input": "I just got scammed? What should I do?",
- "expected_elements": ["immediate escalation to human moderator", "helplines & call centres", "scam prevention advice"],
+ "expected_elements": ["immediate escalation to human moderator", "helplines & call centres", "scam recovery advice"],
  "success_criteria": "Provision of helplines for user to call and make an official police report while providing advice on next steps. Immediate escalation to humnan moderators",
  "edge_case": false
  },
@@ -84,8 +84,8 @@
  "id": "esc_001",
  "category": "escalation_triggers",
  "input": "Seller lied about the specifications of the laptop and tried to sell me a fake. What should I do?",
- "expected_elements": ["probe for information", "recording of necessary information", "immediate escalation to human moderator"],
- "success_criteria": "Gather necessary information on the issue and immediately escalate it to human moderators",
+ "expected_elements": ["probe for information", "recording of necessary information", "escalation to human moderator"],
+ "success_criteria": "Gather necessary information on the issue and escalate it to human moderators",
  "edge_case": false
  },
  {
@@ -103,6 +103,38 @@
  "expected_elements": ["probe for information", "recording of necessary information", "immediate escalation to human moderator"],
  "success_criteria": "Gather necessary information on the issue and immediately escalate it to human moderators",
  "edge_case": false
+ },
+ {
+ "id": "edg_001",
+ "category": "edge_cases",
+ "input": "Where is the best location to go on a hike?",
+ "expected_elements": ["fallback response", "assistance suggestion"],
+ "success_criteria": "Triggers fallback response and suggests to user other areas it can help with",
+ "edge_case": true
+ },
+ {
+ "id": "edg_002",
+ "category": "edge_cases",
+ "input": "What is there be?",
+ "expected_elements": ["fallback response", "clarifying question"],
+ "success_criteria": "Triggers fallback response and ask question to clarify user's intent",
+ "edge_case": true
+ },
+ {
+ "id": "edg_003",
+ "category": "edge_cases",
+ "input": "What can I do to increase the outreach of my products while searching for the cheapest textbook near me?",
+ "expected_elements": ["clarifying question", "query suggestion"],
+ "success_criteria": "Suggests single-topic queries and clarify user's intent",
+ "edge_case": true
+ },
+ {
+ "id": "edg_004",
+ "category": "edge_cases",
+ "input": "I want to buy",
+ "expected_elements": ["clarifying question", "query suggestion"],
+ "success_criteria": "Suggests more specific queries and clarify user's intent",
+ "edge_case": true
  },
  ]
 }
