@@ -10,4 +10,4 @@ The update process workflow is as such:
 8. Main branch stays online and active throughout the process and any failures detected after the deployment of the new version(eg. through user feedbacks) will result in a rollback to the previous chatbot version.
 
 ## Workflow Diagram
-<img src="resources/workflow_diagram.png" width ="500">
+<img src="resources/workflow_diagram.png" width ="800">
