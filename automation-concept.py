@@ -20,8 +20,15 @@ def build_artifact(new_version):
 
 def require_approval(artifact):
     """Policy changes need human approval (compliance/safety team)."""
-    return wait_for_approval()
-
+    if approval_granted():
+        return True
+        
+def get_user_feedback(artifact):
+    if positve_user_feedback():
+        return True
+    elif negative_user_feedback():
+        return False
+    
 def rollback(last_stable_version):
     """Rollback chatbot to last stable version."""
     deploy(previous_version)
@@ -47,7 +54,7 @@ def chatbot_update_pipeline(branch, old_version, test):
         fail("Update rejected")
         return abort_update()
       
-    if user_feedback(artifact):
+    if get_user_feedback(artifact):
         return
     else:
         rollback(get_last_stable_version())
