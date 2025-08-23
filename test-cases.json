@@ -36,8 +36,8 @@
  "id": "tra_002",
  "category": "transaction_support",
  "input": "How do I receive my item?",
- "expected_elements": ["pickup/mail options", "pickup location suggestions", "safety guidelines for pickups"],
- "success_criteria": "Provides the option to either pickup the item or have the seller mail it",
+ "expected_elements": ["meetup/pickup/mail options", "meetup location suggestions", "safety guidelines for pickups"],
+ "success_criteria": "Provides the option to either pickup the item, meet up with the seller or have the seller mail it",
  "edge_case": false
  },
  {
