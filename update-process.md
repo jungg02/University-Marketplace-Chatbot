@@ -1,7 +1,7 @@
 ## Update Process
 The update process workflow is as such:
 1. Markeplace features evolve/changes in contexts or policies
-2. New data collected and fetch changes
+2. New data collected and fetch changes from branch
 3. Update prompts with new changes
 4. New chatbot version created
 5. New chatbot version undergoes rigorous testing and edge case testing using the "Golden Test" design in test-cases.json (CI pipeline)
