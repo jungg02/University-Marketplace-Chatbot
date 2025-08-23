@@ -9,4 +9,5 @@
 - Assume that the context for this marketplace is set in Singapore.
 - Assume that most universities in Singapore follow the same general guidelines on prohibited items in student accomodations.
 - Assume that the marketplace already has an existing user base of both buyers and sellers.
-- Assume that there is a team of human moderators ready to attend to any escalation of events.
+- Assume that there is a team of human moderators ready to respond to any escalation of events.
+- Assume that the marketplace serves students from several universities.
