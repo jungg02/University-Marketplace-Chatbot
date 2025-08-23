@@ -5,11 +5,12 @@ def fetch_changes(branch):
     return store_changes(changes)
   
 def update_chatbot(changes):
-  """Update chatbot to latest version based on changes"""
+    """Update chatbot to latest version based on changes"""
     new_version = adopt_changes(changes)
     return new_version
 
 def run_automated_tests(test, new_version):
+    """Run updated version through test cases and edge cases"""
     if run_golden_test(test, new_version) == "passed":
         return all_tests_passed()
 
@@ -50,7 +51,7 @@ def chatbot_update_pipeline(branch, old_version, test):
         return
     else:
         rollback(get_last_stable_version())
-        fail("Deployment failed – rolled back")
+        fail("Deployment failed – rolling back")
 
     tag_release(artifact)
     succeed("Update deployed successfully")
